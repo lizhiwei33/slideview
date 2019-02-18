@@ -4,15 +4,14 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.MAXDeliveryNG'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 21
+    buildToolsVersion '21.0.0'
 
     defaultConfig {
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode rootProject.versionCode
         versionName rootProject.versionName
-
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
     }
