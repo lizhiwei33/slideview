@@ -4,8 +4,8 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.MAXDeliveryNG'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.3'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         minSdkVersion rootProject.minSdkVersion
