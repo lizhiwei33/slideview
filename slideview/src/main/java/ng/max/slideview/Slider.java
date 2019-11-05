@@ -37,7 +37,7 @@ public class Slider extends AppCompatSeekBar {
             }
         } else if (event.getAction() == MotionEvent.ACTION_UP) {
             Log.e("===", "onTouchEvent: "+getProgress());
-            if (getProgress() >= 100) {
+            if (getProgress() >= 70) {
                 Log.e("===11", "onTouchEvent: "+getProgress());
                 if (listener != null) listener.onSlideComplete(slideView);
             }
