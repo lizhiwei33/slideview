@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                 vibrator.vibrate(500);
                 //slideView.setEnabled(false);
+                ///
                 slideView.setText("Disabled");
             }
         });
